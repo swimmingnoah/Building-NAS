@@ -1,0 +1,1 @@
+I did some looking around to see what would be the best OS for a NAS and came across [FreeNas](https://www.freenas.org)! FreeNas became the OS where i created pools and datasets as well as shares using the *ZFS file system* to be able to use the server. 
