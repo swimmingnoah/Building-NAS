@@ -8,5 +8,5 @@ Since the summer I have started working on building and maintaining a NAS, I pri
 2. [Find an OS to use](/os.md)
 3. [Shuck external drives to be able to connect via SATA](drive.md)
 4. [Put all hardware together with PC and HD](/hardware.md)
-5. [Configure OS with shares and Plex](configure.md)
+5. [Configure OS with shares, Plex and Transmission](configure.md)
 6. Enjoy the awesomeness of having a NAS
