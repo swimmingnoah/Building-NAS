@@ -1,3 +1,8 @@
+1. [Find a pc](/findpc.md)
+2. [Find an OS to use](/os.md)
+3. [Shuck external drives to be able to connect via SATA](drive.md)
+4. [Put all hardware together with PC and HD](/hardware.md)
+5. [Configure OS with shares, Plex and Transmission](configure.md)
 One part of the NAS I needed to create was a Jail which is a application holder like Docker. I wanted to create a jail to be able to use Transmission which is a torrent downloader and seeder for me to be able to quickly and precisely manage the torrents I download.
 ```
 #Create a temporary file listing the applications to automaticlly be installed in the jail
