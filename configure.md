@@ -3,7 +3,8 @@
 3. [Shuck external drives to be able to connect via SATA](drive.md)
 4. [Put all hardware together with PC and HD](/hardware.md)
 5. [Configure OS with shares, Plex and Transmission](configure.md)
-One part of the NAS I needed to create was a Jail which is a application holder like Docker. I wanted to create a jail to be able to use Transmission which is a torrent downloader and seeder for me to be able to quickly and precisely manage the torrents I download.
+
+### One part of the NAS I needed to create was a Jail which is a application holder like Docker. I wanted to create a jail to be able to use Transmission which is a torrent downloader and seeder for me to be able to quickly and precisely manage the torrents I download.
 ```
 #Create a temporary file listing the applications to automaticlly be installed in the jail
 echo '{"pkgs":["bash","ca_root_nss","jq","openvpn","transmission-cli","transmission-daemon","transmission-web","unzip","unrar","wget","-y p5-Digest-SHA"]}' > /tmp/pkg.json
